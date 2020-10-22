@@ -1,4 +1,4 @@
-function floralCensorHtml(input){
+function floralCensor(input){
 
     var output = input;
 
@@ -9,10 +9,7 @@ function floralCensorHtml(input){
     function floralShuffle(i){
         return i[Math.floor(Math.random() * i.length)];
     }
-
-    var body = document.querySelector(".censorCussword");
-    console.log("body");
-
+    
     var isCussword = cusswords.test(output);
 
     while(isCussword){
@@ -20,10 +17,9 @@ function floralCensorHtml(input){
         if (Object.prototype.toString.call(currentCussword) == "[object Array]")
             output = output.replace(currentCussword[0], floralShuffle(floralArray));
         isCussword = cusswords.test(output);
-        body.innerHTML = isCussword;
-    }  
-    
+    } 
+
     console.log(output);
 }
 
-//module.exports = floralCensorHtml;
+//module.exports = floralCensor;

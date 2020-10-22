@@ -1,0 +1,30 @@
+{
+  "name": "censor-html-with-flora",
+  "version": "1.0.0",
+  "description": "Make your harsh language more floral!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nadja-and-elisabeths-open-source/censor-html-with-flora.git"
+  },
+  "keywords": [
+    "flora",
+    "floral",
+    "html",
+    "manipulation",
+    "hacktoberfest",
+    "npm",
+    "fun",
+    "javascript",
+    "flower"
+  ],
+  "author": "Elisabeth Asbæk & Nadja Rømer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nadja-and-elisabeths-open-source/censor-html-with-flora/issues"
+  },
+  "homepage": "https://github.com/nadja-and-elisabeths-open-source/censor-html-with-flora#readme"
+}
